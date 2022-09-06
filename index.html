@@ -42,11 +42,12 @@
                         <div>
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="password" required minlength="6" maxlength="12">
+                            <span class="password__span hidden">Must be 6-12 characters long</span>
                         </div>
                         <div class="confirm__div">
                             <label for="confirm-password">Confirm password:</label>
                             <input type="password" id="confirm-password" name="confirm-password" required minlength="6" maxlength="12">
-                            <span class="confirm-password__span hidden">Passwords to not match</span>
+                            <span class="confirm-password__span hidden">Passwords do not match</span>
                         </div>
                 </div>
                 <button>Create Account</button>

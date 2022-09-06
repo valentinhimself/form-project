@@ -115,12 +115,13 @@ button:hover {
     display: block;
 }
 
-.confirm-password__span {
+.confirm-password__span, .password__span {
     color: red;
     font-weight: 700;
     font-size: 0.75rem;
+    display: block;
 }
 
-.confirm-password__span.hidden {
+.confirm-password__span.hidden, .password__span.hidden  {
     display: none;
 }
