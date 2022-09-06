@@ -15,6 +15,11 @@
     }
 } 
 
+#odin {
+    font-family: Norse-Bold, sans-serif;
+    color: white;
+    font-size: 5rem;
+}
 main {
     /* font-family: Norse-Bold, sans-serif; */
     display: grid;
@@ -106,6 +111,7 @@ button:hover {
     transform: translateY(-50%);
     width: 100%;
     justify-content: center;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem 0;   
 }
