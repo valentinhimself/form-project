@@ -43,7 +43,7 @@ confirmPassword.addEventListener("keyup", () => {
 });
 
 confirmPassword.addEventListener("click", () => {
-    if (isPasswordCorrectLength() == false) {
+    if (isPasswordCorrectLength() == false && password.value !="") {
         passwordSpan.classList.remove ('hidden');
     }
 
